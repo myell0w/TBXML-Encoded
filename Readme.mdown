@@ -1,0 +1,5 @@
+I once had an issue where I had to use a provided XML-API that only returned one XML-Element <string> with a whole (very big) XML-document encoded as content, so for performance-reasons I patched TBXML to directly parse encoded XML-Tags that are enclosed by "&lt;" and "&gt;"
+
+I'm releasing this because maybe there is someone out there that has to go throgh the same pain :)
+
+TODO: support CDATA
